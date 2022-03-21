@@ -1,0 +1,25 @@
+body{
+  background-color: black;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding-right:10px;
+  color: beige;
+  align-items: center;
+}
+.movies{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: start;
+}
+.search{
+  width: 40vw;
+  height: 6vh;
+  border-radius: 6px ;
+  border: none;
+}
+.forHover:hover{
+  border-radius: 20px;
+  box-shadow: 2px 5px 5px  rgb(218, 218, 91);
+} 
