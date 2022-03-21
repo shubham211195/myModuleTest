@@ -21,7 +21,7 @@ const App=()=>{
       getMovieRequest(SearchValue);
     },[SearchValue]);
   return(
-    <div>
+    <div className="container">
           <div className="header">
               <MovieListHeading heading={"MovieZone"} />
               <SearchBar SearchValue={SearchValue} setSearchValue={setSearchValue}/>
